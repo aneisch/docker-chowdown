@@ -15,7 +15,7 @@ ingredients:
 - hearty crack of pepper
 
 directions:
-- combine goat cheese, mayo, sour cream, 2/3rds of your chives, hot sauce, black pepper
+- combine goat cheese, mayo, sour cream, ⅔ of your chives, hot sauce, black pepper
 - if you are feeling spry, beat the mixture to make it fluffy
 - put filling in a plastic bag, snip of the tip with scissors to make a piping bag
 - fill peppers, place in bowl, top with chives and hot sauce

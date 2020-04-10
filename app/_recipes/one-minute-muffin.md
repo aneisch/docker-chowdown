@@ -7,8 +7,8 @@ imagecredit: http://divaliciousrecipes.com/2012/04/26/flax-muffin-in-a-mug-in-a-
 tags: breakfast
 
 ingredients:
-- 1⁄4 cup flax seed meal
-- 1⁄2 teaspoon baking powder
+- ¼ cup flax seed meal
+- ½ teaspoon baking powder
 - 1 teaspoon cinnamon
 - 1 egg
 - 1 teaspoon oil

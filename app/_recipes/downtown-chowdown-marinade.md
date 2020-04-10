@@ -7,9 +7,9 @@ tags: party, meat
 
 ingredients:
 - 1 cup Italian dressing
-- 1/4 cup soy sauce
-- 1/4 cup chili paste (like [sambal oelek](https://amzn.to/2NuqquF))
-- 1/4 sugar
+- ¼ cup soy sauce
+- ¼ cup chili paste (like [sambal oelek](https://amzn.to/2NuqquF))
+- ¼ sugar
 - dash hot sauce (like Texas Champagne or Yellowbird)
 
 directions:

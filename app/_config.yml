@@ -1,10 +1,10 @@
 # Site settings
-title: Chowdown
+title: Recipes
 email: your-email@domain.com
 description: The plain text recipe database for hackers
 baseurl: ""
 twitter_username: clarklab
-github_username:  clarklab
+github_username:  aneisch
 
 # Build settings
 markdown: kramdown
@@ -17,4 +17,4 @@ collections:
   recipes:
     output: true
 
-exclude: ['Gemfile', 'Gemfile.lock', 'Rakefile', 'README.md']
+exclude: ['Gemfile', 'Gemfile.lock', 'Rakefile', 'README.md', '_recipes/aaa-template.md', 'readme.md', 'LICENSE']

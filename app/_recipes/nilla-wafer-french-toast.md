@@ -7,9 +7,9 @@ tags: breakfast, baking
 
 ingredients:
 - 4 eggs
-- 1/4 cup heavy cream
+- ¼ cup heavy cream
 - 2 tsp vanilla 
-- sprinkle of sugar
+- Sprinkle of sugar
 - 4 cups Nilla Wafers Minis
 
 directions:

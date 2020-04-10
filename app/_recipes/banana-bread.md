@@ -8,14 +8,14 @@ tags: breakfast, baking
 
 ingredients:
 - 4 bananas
-- 1/2 cup butter
-- 1/2 cup sugar
+- ½ cup butter
+- ½ cup sugar
 - 2 eggs
 - 2 cups flour
-- 1/2 tsp baking soda
+- ½ tsp baking soda
 - 1 tsp baking powder
 - pinch salt
-- 1/4 cup nuts (we like pecans)
+- ¼ cup nuts (we like pecans)
 
 directions:
 - Beat the eggs, then cream with the butter and sugar

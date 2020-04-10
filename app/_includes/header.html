@@ -1,4 +1,21 @@
+<!-- Move search bar down when on small screen -->
+<script>
+$( document ).ready(function() {
+  myFunction();
+});
+document.getElementsByTagName("BODY")[0].onresize = function() {myFunction()};
+function myFunction() {
+  if ($(window).width() < 800) {
+    document.getElementById("after-logo").innerHTML = '<br><br><br>'
+  }
+  else {
+    document.getElementById("after-logo").innerHTML = ""
+  }
+}
+</script>
+
 <a class="site-title fixed bg-blue p1 no-line-height top-0 left-0 z4" href="{{ site.baseurl }}/">
     {% include chowdown-logo-white.svg %}
   <h1 class="hide">{{ site.title }}</h1>
 </a>
+<div id="after-logo"></div>
