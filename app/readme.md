@@ -9,7 +9,7 @@ A simple, plaintext recipe database for hackers. This is based on a fork: https:
 ```
     chowdown:
         container_name: chowdown
-        image: gregyankovoy/chowdown:latest
+        image: aneisch/chowdown:latest
         ports:
           - "4000:4000"
         volumes:
