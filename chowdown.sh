@@ -12,7 +12,6 @@ mkdir -p /opt/tmp
 [ -d /config/_components ] && mv /opt/app/_components /opt/tmp/_components/
 [ -d /config/_includes ] && mv /opt/app/_includes /opt/tmp/_includes/
 [ -d /config/_layouts ] && mv /opt/app/_layouts /opt/tmp/_layouts/
-[ -d /config/_posts ] && mv /opt/app/_posts /opt/tmp/_posts/
 [ -d /config/_recipes ] && mv /opt/app/_recipes /opt/tmp/_recipes/
 [ -d /config/assets ] && mv /opt/app/assets /opt/tmp/assets/
 [ -d /config/css ] && mv /opt/app/css /opt/tmp/css/
