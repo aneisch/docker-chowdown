@@ -1,4 +1,4 @@
-FROM gregyankovoy/alpine-base
+FROM alpine:latest
 
 COPY chowdown.sh /usr/local/bin/chowdown.sh
 RUN chmod +x /usr/local/bin/chowdown.sh
