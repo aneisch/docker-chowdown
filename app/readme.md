@@ -1,28 +1,27 @@
 # Chowdown
 
-A simple, plaintext recipe database for hackers
+A simple, plaintext recipe database for hackers. This is based on a fork: https://github.com/clarklab/chowdown --> https://github.com/GregYankovoy/docker-chowdown
 
 [http://chowdown.io](http://chowdown.io)
 
 # Getting Started
 
-This is a Jekyll build. Make sure you have Jekyll [installed](https://jekyllrb.com/). To install, run this command in the terminal (or iTerm, etc):
+```
+    chowdown:
+        container_name: chowdown
+        image: gregyankovoy/chowdown:latest
+        ports:
+          - "4000:4000"
+        volumes:
+          - '/opt/chowdown:/config'
+        restart: always
+```
 
-```gem install bundler jekyll```
-
-or to check if you've got it installed already:
-
-```jekyll -v```
-
-Clone or download this repo. Navigate to the folder in terminal (or iTerm, etc), and then run:
-
-```jekyll serve```
-
-With default settings, you should be able to view the site locally at `http://127.0.0.1:4000/`
+Clone this repo in /opt/chowdown. Keep in sync, push/pull as needed. 
 
 # Writing a Recipe
 
-The recipes are stored in the collection "Recipes" (the folder /_recipes).
+The recipes are stored in the collection _recipes. Anything that is only a component of a larger recipe should go in _components.
 
 They are written in Markdown and contain a few special sections:
 
@@ -32,6 +31,8 @@ They are written in Markdown and contain a few special sections:
  - Directions (a list of steps for the dish)
 - Body content (for intros, stories, written detail)
 
+https://www.alt-codes.net/fraction-symbols 
+
 If you need help with Markdown, here's a [handy cheatsheet](https://github.com/adam-p/markdown-here/wiki/Markdown-Cheatsheet).
 
 # Writing a component recipe
@@ -40,7 +41,7 @@ A component recipe is a special recipe made up of other recipes. To make a new c
 
 - place your smaller, single recipes into the /_components folder
 - make a new recipe like normal in the /_recipes folders
-- in the frontmatter of this new recipe, include your recipes from the /_components folder (instead of the usual Ingredeints list)
+- in the frontmatter of this new recipe, include your recipes from the /_components folder (instead of the usual Ingredients list)
 
 You can an example on the Red Berry Tart recipe. 
 
