@@ -1,5 +1,7 @@
 FROM alpine:latest
 
+LABEL org.opencontainers.image.source https://github.com/aneisch/docker-chowdown
+
 COPY chowdown.sh /usr/local/bin/chowdown.sh
 RUN chmod +x /usr/local/bin/chowdown.sh
 
